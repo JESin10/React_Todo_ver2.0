@@ -107,8 +107,9 @@ const StTitle = styled.div `
   width : 250px;
   font-weight: bold;
   padding: 10px 0px;
+  text-align-last : start;
   word-wrap: break-word;
-`
+  `
 
 const StContent = styled.div `
   font-size: 15px;
