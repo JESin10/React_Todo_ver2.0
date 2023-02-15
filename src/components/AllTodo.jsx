@@ -33,7 +33,7 @@ function AllTodo() {
               </div>
               <div>
                 <StDeleteBtn className="delbtn" onClick={()=> onDelete(todo.id)}> Delete </StDeleteBtn>
-                <StEditeBtn className="editbtn" onClick={()=> onEdit(todo.id)}> {todo.isDone? 'Cancle' : 'Complete'} </StEditeBtn>
+                <StEditeBtn className="editbtn" onClick={()=> onEdit(todo.id)}> {todo.isDone? 'Cancel' : 'Complete'} </StEditeBtn>
               </div>
             </StTodo> 
           )} else {
@@ -57,7 +57,7 @@ function AllTodo() {
               </div>
               <div>
                 <StDeleteBtn className="delbtn" onClick={()=> onDelete(todo.id)}> Delete </StDeleteBtn>
-                <StEditeBtn className="editbtn" onClick={()=> onEdit(todo.id)}> {todo.isDone? 'Cancle' : 'Complete'} </StEditeBtn>
+                <StEditeBtn className="editbtn" onClick={()=> onEdit(todo.id)}> {todo.isDone? 'Cancel' : 'Complete'} </StEditeBtn>
               </div>
             </StTodo> 
           )} else {
